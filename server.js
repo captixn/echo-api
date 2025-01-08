@@ -19,6 +19,7 @@ app.all('/', (req, res) => {
         query: req.query,
         method: req.method
     };
+    console.log(response);
 
     res.json(response);
 });
@@ -30,6 +31,7 @@ app.all('/public', (req, res) => {
         query: req.query,
         method: req.method
     };
+    console.log(response);
 
     res.json(response);
 });
